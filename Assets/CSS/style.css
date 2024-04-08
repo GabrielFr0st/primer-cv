@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #ffa7de;
+}
+
+.fondo-titulo {
+  background-image: url(../Img/rosajelves.jpg);
+  width: 100%;
+  height: 100vh; /*Para ajustar imagen*/
+  background-position: center; /*Vista imagen completa*/
+  background-size: cover;
+}
+
+h1 {
+    padding-left: 10rem;
+    padding-top: 2rem;
+    font-size: 4rem;
+}
