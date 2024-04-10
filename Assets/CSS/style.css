@@ -16,6 +16,14 @@ h1 {
     font-size: 4rem;
 }
 
+/* Media query para pantallas de menos de 600px de ancho, común en celulares */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem; /* Reducir el tamaño de la letra para pantallas pequeñas */
+    padding: 10px; /* Reducir el espacio alrededor para ahorrar espacio */
+  }
+}
+
 .datos {
 background-color: #ffa7de;
 width: 100%;
@@ -25,4 +33,3 @@ height: 20rem;
 .redes-fondo {
   background-color: #ffa7de;
 }
-
